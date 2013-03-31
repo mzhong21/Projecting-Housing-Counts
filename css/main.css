@@ -1,0 +1,49 @@
+.container {
+	width:435px;
+	min-height: 500px;
+	border-style:solid;
+	border-color:#e6e6e6;
+	border-width: 1px;
+}
+
+#authors {
+	margin-left:auto;
+	margin-right:auto;
+	width: 240px;
+}
+
+#header {
+	width:340px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#estimate-header {
+	width:260px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pricing-table * {
+	line-height: .22;
+}
+
+.pricing-table .bullet-item {
+	text-align:left;
+}
+
+.pricing-table .price {
+	font-size:1.05em;
+}
+
+.suite {
+	font-size: .89em;
+	display: inline;
+}
+
+.count {
+	font-size: .89em;
+	font-weight: 600;
+	display: inline;
+	color: rgb(36, 139, 169);
+}

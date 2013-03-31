@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Housing Projections</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/foundation.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="panel">
+			<h3 id="header">Projecting Your Options</h3>
+			<h6 id="authors" class="subheader">By Eric Feder and Mikey Zhong</h6>
+		</div>
+		<div>
+		<div class="row">
+		<div class="large-10 columns">
+			<div class="row collapse">
+				<div class="small-5 columns">
+					<input type="text" placeholder="Point Value" class="lotteryvalue">
+				</div>
+				<div class="small-5 columns">
+					<input type="text" placeholder="Lottery Number" class="lotteryvalue">
+				</div>
+				<div class="small-2 columns">
+					<a href="#" class="button prefix" id="submit">Go!</a>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="flasherror">
+		</div>
+		</div>
+		<div id="options">
+			<ul class="small-block-grid-2">
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Broadway</li>
+					  <li class="bullet-item">
+						<p class="suite">Double: </p>
+						<p class="count">38</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Claremont</li>
+					  <li class="bullet-item">
+						<p class="suite">3-Person Suite: </p>
+						<p class="count">3</p></li>
+						<li class="bullet-item">
+						<p class="suite">4-Person Suite: </p>
+						<p class="count">5</p></li>
+						<li class="bullet-item">
+						<p class="suite">5-Person Suite: </p>
+						<p class="count">1</p></li>
+						<li class="bullet-item">
+						<p class="suite">6-Person Suite: </p>
+						<p class="count">1</p></li>
+					  <li class="bullet-item">
+						<p class="suite">7-Person Suite: </p>
+						<p class="count">10</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+						<li class="price">East Campus</li>
+						<li class="bullet-item">
+						<p class="suite">6-Person Double: </p>
+						<p class="count">8</p></li>
+						<li class="bullet-item">
+						<p class="suite">2-Person Flat: </p>
+						<p class="count">24</p></li>
+						<li class="bullet-item">
+						<p class="suite">4-Person Townhouse: </p>
+						<p class="count">7</p></li>
+						<li class="bullet-item">
+						<p class="suite">5-Person All-Single Suite: </p>
+						<p class="count">7</p></li>
+						<li class="bullet-item">
+						<p class="suite">5-Person Suite w/ 1 Double: </p>
+						<p class="count">56</p></li>
+						<li class="bullet-item">
+						<p class="suite">6-Person All-Single Suite: </p>
+						<p class="count">6</p></li>
+						<li class="bullet-item">
+						<p class="suite">6-Per All-Single Townhouse: </p>
+						<p class="count">22</p></li>
+						<li class="bullet-item">
+						<p class="suite">6-Person Suite w/ 1 Double: </p>
+						<p class="count">6</p></li>	
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Furnald</li>
+					  <li class="bullet-item">
+						<p class="suite">Double: </p>
+						<p class="count">1</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Harmony</li>
+					  <li class="bullet-item">
+						<p class="suite">Double: </p>
+						<p class="count">1</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Hogan</li>
+					  <li class="bullet-item">
+						<p class="suite">4-Person Suite: </p>
+						<p class="count">12</p></li>
+					  <li class="bullet-item">
+						<p class="suite">5-Person Suite: </p>
+						<p class="count">10</p></li>
+					  <li class="bullet-item">
+						<p class="suite">6-Person Suite: </p>
+						<p class="count">1</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">McBain</li>
+					  <li class="bullet-item">
+						<p class="suite">Double: </p>
+						<p class="count">173</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Nussbaum</li>
+					  <li class="bullet-item">
+						<p class="suite">Double: </p>
+						<p class="count">50</p></li>
+					  <li class="bullet-item">
+						<p class="suite">Dbl w/ Private Bathroom: </p>
+						<p class="count">5</p></li>
+					  <li class="bullet-item">
+						<p class="suite">W/T Dbl w/ Private Bathroom: </p>
+						<p class="count">8</p></li>
+					  <li class="bullet-item">
+						<p class="suite">Dbl w/ Semi-Priv Bathroom: </p>
+						<p class="count">15</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Ruggles</li>
+					  <li class="bullet-item">
+						<p class="suite">4-Person Suite: </p>
+						<p class="count">4</p></li>
+					  <li class="bullet-item">
+						<p class="suite">6-Person Suite: </p>
+						<p class="count">8</p></li>
+					  <li class="bullet-item">
+						<p class="suite">8-Person Suite w/ 2 Doubles: </p>
+						<p class="count">2</p></li>
+					  <li class="bullet-item">
+						<p class="suite">8-Person Suite w/ 3 Doubles: </p>
+						<p class="count">12</p></li>
+					
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Schapiro</li>
+					  <li class="bullet-item">
+						<p class="suite">Double: </p>
+						<p class="count">64</p></li>
+					  <li class="bullet-item">
+						<p class="suite">Walkthrough Double: </p>
+						<p class="count">29</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Symposium</li>
+					  <li class="bullet-item">
+						<p class="suite">Studio Double: </p>
+						<p class="count">8</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Watt</li>
+					  <li class="bullet-item">
+						<p class="suite">Studio Double: </p>
+						<p class="count">53</p></li>
+					  <li class="bullet-item">
+						<p class="suite">1-Bedroom: </p>
+						<p class="count">12</p></li>
+					  <li class="bullet-item">
+						<p class="suite">2-Bedroom: </p>
+						<p class="count">11</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Wien</li>
+					  <li class="bullet-item">
+						<p class="suite">Double: </p>
+						<p class="count">18</p></li>
+					  <li class="bullet-item">
+						<p class="suite">Walkthrough Double: </p>
+						<p class="count">28</p></li>
+					</ul>
+				</li>
+				<li>
+					<ul class="pricing-table">
+					  <li class="price">Woodbridge</li>
+					  <li class="bullet-item">
+						<p class="suite">1-Bedroom: </p>
+						<p class="count">75</p></li>
+					  <li class="bullet-item">
+						<p class="suite">2-Bedroom: </p>
+						<p class="count">3</p></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/foundation.min.js"></script>
+	<script src="js/load-options.js"></script>
+</body>
+
+</html>
